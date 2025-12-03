@@ -25,3 +25,4 @@ rawInput.split('\n')
     }, 50)
 
 console.log(password)
+
