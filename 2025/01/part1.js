@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const rawInput = fs.readFileSync(__dirname + '/input.txt').toString()
+const rawInput = fs.readFileSync(0).toString()
 let password = 0
 rawInput.split('\n')
     .map(s => {
